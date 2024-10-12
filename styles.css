@@ -50,14 +50,11 @@ p, h1, h2, h3 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    margin-bottom: 0;
-    margin-top: 0;
 }
 
 .description {
     font-size: 18px;
     color: #E5E7EB;
-    margin-top: 0;
 }
 
 .image-placeholder {
@@ -99,6 +96,7 @@ p, h1, h2, h3 {
     color: #1F2937;
     font-weight: 900;
     margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .info-card-container {
