@@ -4,7 +4,10 @@ body {
     font-family: Roboto, Arial;
     margin: 0;
     color: white;
-    background-color: grey;
+}
+
+p, h1, h2, h3 {
+    margin: 0;
 }
 
 .header {
@@ -12,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 180px 17px 180px;
+    padding: 17px 180px;
 }
 
 .header-logo {
@@ -23,9 +26,13 @@ body {
 .header-right-section {
     display: flex;
     gap: 28px;
+}
+
+.header-links {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 300;
+    cursor: pointer;
 }
 
 
@@ -66,11 +73,130 @@ body {
 }
 
 .main-sign-up-button {
-    background-color: #3882F6;
+    background-color: #3B82F6;
     color: white;
     border: none;
     padding: 10px 35px;
     font-size: 18px;
     font-weight: 600;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    background-color: white;
+
+    padding: 25px 0px 100px 0px;
+}
+
+.information-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.info-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.card {
+    border: 4px solid #3B82F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.card-description {
+    font-size: 18px;
+    color: #6D747D;
+    text-align: center;
+    width: 175px;
+}
+
+.testimonial-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 120px 240px;
+}
+
+.testimonial {
+    margin: 0;
+
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.testimonial-customer {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    position: absolute;
+
+    bottom: -24px;
+    right: 80px;
+}
+
+.cta-section {
+    background-color: white;
+    padding: 100px 150px;
+}
+
+.cta-card {
+    background-color: #3B82F6;
+    padding: 45px 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.cta-description {
+    color: #d6d6d6;
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: #3B82F6;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
 }
