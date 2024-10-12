@@ -45,6 +45,11 @@ p, h1, h2, h3 {
     gap: 50px;
 }
 
+.main-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .title {
     font-size: 48px;
